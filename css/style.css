@@ -73,13 +73,7 @@
 }
 
 .nav__link:hover {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 10px 0px 0px;
-    padding: 8px 12px;
     background-color: #111827;
-    border-radius: 6px;
 }
 
 /*Header end*/
@@ -109,6 +103,7 @@
     justify-content: space-between;
     font-weight: 700;
     font-size: 32px;
+    margin-bottom: 50px;
 }
 
 .title--left {
@@ -127,8 +122,6 @@
 
 .list
 {
-    width: 406px;
-    height: 578px;
     background: #FCFFE7;
     border: 1px solid #000000;
 }
@@ -155,15 +148,12 @@
 .information
 {
     width: 832px;
-    height: 578px;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
 
 .information__title
 {
-    width: 629px;
-    height: 27px;
     font-weight: 700;
     font-size: 23px;
     line-height: 27px;
@@ -172,12 +162,10 @@
 
 .information__text
 {
-    width: 768px;
-    height: 100px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .title2 {
@@ -258,7 +246,7 @@
 .posts 
 {
     display: grid;
-    grid-template-columns: 406.33px 406.33px 406.33px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-column-gap: 36px;
 }
 
