@@ -109,6 +109,8 @@
     justify-content: space-between;
     font-weight: 700;
     font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
 }
 
 .title--left {
@@ -167,7 +169,7 @@
     font-weight: 700;
     font-size: 23px;
     line-height: 27px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .information__text
@@ -177,7 +179,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .title2 {
@@ -258,7 +260,7 @@
 .posts 
 {
     display: grid;
-    grid-template-columns: 406.33px 406.33px 406.33px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-column-gap: 36px;
 }
 
